@@ -3,7 +3,7 @@
 -- Rather than run at a real dot clock rate (~30MHz for VGA), we'll
 -- use a rather slower clock, and have somewhat fat pixels.
 
-local dot_clock_cheat = 16
+local dot_clock_cheat = 2
 
 local h_front_porch = 32 / dot_clock_cheat
 local h_sync = 128 / dot_clock_cheat
