@@ -39,15 +39,13 @@ range of available colours.
 ## Circuit design
 
 The circuit breadboarded so far has three chained 74HC counters
-supplying the address to a 29040 flash chip.
+supplying the address to a 29040 flash chip. A 74HC574 latches the
+values for the display. (A 74HC574 triggers on the wrong edge to avoid
+transients, but it's what I had to hand, and seems to work fine.)
 
 ## TODO
 
- * Draw up the schematic.
- * The output display has vertical lines between the wide "pixels",
-   caused by noisy transitions. Work out the precise cause, and
-   implement a workaround.
+ * Investigate higher resolutions, animated designs.
  * Generate a flash image from an actual picture, not an algorithmic
    test.
- * Investigate higher resolutions, animated designs.
  * Design and manufacture a custom PCB for the project.
