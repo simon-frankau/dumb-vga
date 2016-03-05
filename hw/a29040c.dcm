@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A29040C
+D Flash 512K x  8 bits (32 pins DIP or PLCC)
+K Flash 512KB
+F memory/29040.pdf
+$ENDCMP
+#
+#End Doc Library
