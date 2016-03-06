@@ -38,3 +38,16 @@ works. This suggests that it's the signal shape, not phase issues
 between different chips, that causes the problem. It seems only the
 latch is annoyed by the shape of the oscillator output being
 insufficiently square.
+
+# v0.4
+
+This revision is an optimisation, removing the inverter. As the
+problem was feeding the oscillator output directly into the latch, I
+removed the oscillator and did it another way: Replace the 16MHz
+oscillator with a 32MHz oscillator, move all the address pins along to
+get the same frequency counting, and use the lowest bit of the counter
+as the clock for the latch. It seems to do the trick.
+
+A downside is that the animation now only runs at twice the speed as
+before (a bit manic), but it's a trade-off I'm willing to take to
+eliminate a whole IC from a small design.
