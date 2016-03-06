@@ -30,3 +30,11 @@ square up the wave, or perhaps because it fixed up a clock phase issue
 
 By attaching the high address line to the highest bit of the counter,
 we can create a simple animation with 2 frames.
+
+# v0.3
+
+Moved the inverter to directly after the oscillator. The display
+works. This suggests that it's the signal shape, not phase issues
+between different chips, that causes the problem. It seems only the
+latch is annoyed by the shape of the oscillator output being
+insufficiently square.
