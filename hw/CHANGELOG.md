@@ -14,3 +14,19 @@ output of the Flash aren't sent over the VGA lines, which resulted in
 black stripes on the screen.
 
 74574 = no stripes. Hurrah!
+
+# v0.2
+
+Switched from 2MHz oscillator to 16MHz oscillator, making the pixels
+8x narrower. A 32MHz oscillator would give square pixels, but the
+29040 takes 55ns to read, so that would be too fast.
+
+Oscilloscope output looked good, but video didn't display. The
+oscillator's output didn't look like a great square wave, but putting
+an inverter or two on the 74754 latch's clock line made the display
+work. It's not totally clear to me if this was because it helped
+square up the wave, or perhaps because it fixed up a clock phase issue
+- I need to investigate more.
+
+By attaching the high address line to the highest bit of the counter,
+we can create a simple animation with 2 frames.

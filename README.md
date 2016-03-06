@@ -36,6 +36,16 @@ when terminated by a 75 ohm resistor when both bits are set.
 gen_test.lua generates a simple RGB "checkerboard" displaying the
 range of available colours.
 
+gen_rom.lua generates a ROM image given a Gimp .data file (I couldn't
+find a nice low-dep Lua image library). It simply takes the top two
+bits of each pixel value to generate the colour.
+
+prep_img.lua converts a .data image into another .data image that uses
+the 6-bit colour space that the circuit can display. It uses dithering
+to improve the generated image. Generating a ROM image from an image
+that has been prepared with 'prep_img' should produce a rather better
+result.
+
 ## Circuit design
 
 The circuit breadboarded so far has three chained 74HC counters
@@ -45,7 +55,6 @@ transients, but it's what I had to hand, and seems to work fine.)
 
 ## TODO
 
- * Investigate higher resolutions, animated designs.
- * Generate a flash image from an actual picture, not an algorithmic
-   test.
+ * Investigate timing issues - can we eliminate the inverter?
+ * Look into scan-line doubling
  * Design and manufacture a custom PCB for the project.
