@@ -21,7 +21,8 @@ Rather than try to engineer something with a ~30MHz clock, I decided
 to start with a basic version that can only display "super-wide"
 pixels, by running using a 2MHz clock, making each pixel 16
 "underlying" pixels wide. Low horizontal resolution in exchange for
-making my life a lot easier.
+making my life a lot easier. This has now been upgraded to a 32MHz
+clock being used to produce a 16MHz dot clock.
 
 ## VGA levels
 
@@ -55,6 +56,5 @@ transients, but it's what I had to hand, and seems to work fine.)
 
 ## TODO
 
- * Investigate timing issues - can we eliminate the inverter?
  * Look into scan-line doubling
  * Design and manufacture a custom PCB for the project.
