@@ -56,3 +56,7 @@ eliminate a whole IC from a small design.
 
 Rearranged the counter to perform scan-line doubling, which gives us
 space for 4 frames in the Flash memory, as well as squarer pixels.
+
+# v0.6
+
+Added jumpers to allow control of the animation rate.
