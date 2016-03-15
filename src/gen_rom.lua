@@ -6,17 +6,15 @@
 -- Note that this only generates one frame, but you can concatenate
 -- two frames to fill a 512KB device.
 
-local pixel_width = 2
-
-local h_front_porch = 32 / pixel_width
-local h_sync = 128 / pixel_width
-local h_back_porch = 96 / pixel_width
-local h_visible = 768 / pixel_width
+local h_front_porch = 16
+local h_sync = 64
+local h_back_porch = 48
+local h_visible = 384
 
 local v_front_porch = 1
-local v_sync =  3
-local v_back_porch = 28
-local v_visible = 480
+local v_sync =  1
+local v_back_porch = 14
+local v_visible = 240
 
 local in_file = "in.data"
 local out_file = "vga.bin"
@@ -28,19 +26,13 @@ local out_file = "vga.bin"
 local data = {}
 
 function read_pixel(f, x, y)
-  -- First, get average value.
-  local r = 0
-  local g = 0
-  local b = 0
-  for i = 1, pixel_width do
-    local pixel = f:read(3)
-    r = r + pixel:byte(1)
-    g = g + pixel:byte(2)
-    b = b + pixel:byte(3)
-  end
-  r = math.floor(r / pixel_width + 0.5)
-  g = math.floor(g / pixel_width + 0.5)
-  b = math.floor(b / pixel_width + 0.5)
+  local pixel = f:read(3)
+  r = pixel:byte(1)
+  g = pixel:byte(2)
+  b = pixel:byte(3)
+  r = math.floor(r + 0.5)
+  g = math.floor(g + 0.5)
+  b = math.floor(b + 0.5)
   -- Extract top two bits.
   r = math.floor(r / 64) % 4
   g = math.floor(g / 64) % 4

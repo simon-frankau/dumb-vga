@@ -1,18 +1,15 @@
 -- Convert an image into the form that we'll put on the Flash.
 
--- Basically, uses Floyd-Steinberg to reduce the colour to 6 bits, and
--- reduce the horizontal resolution by half, to get an image we can
--- display.
+-- Basically, uses Floyd-Steinberg to reduce the colour to 6 bits, to
+-- get an image we can display.
 --
 -- As input, it takes a file saved in Gimp's raw .data format (as I
 -- couldn't find a low-dep image processing library for Lua), and
 -- produces a file in the same format.
 
-local width = 768
-local height = 480
+local width = 384
+local height = 240
 
--- width must be am multiple of pixel_width
-local pixel_width = 2
 local colour_levels = 4
 
 local in_file = "in.data"
@@ -20,23 +17,16 @@ local in_file = "in.data"
 local out_file = "out.data"
 
 function read_pixel(fin)
-  local r = 0
-  local g = 0
-  local b = 0
-  for i = 1, pixel_width do
-    local pixel = fin:read(3)
-    r = r + pixel:byte(1)
-    g = g + pixel:byte(2)
-    b = b + pixel:byte(3)
-  end
-  return { r = r / pixel_width, g = g / pixel_width, b = b / pixel_width }
+  local pixel = fin:read(3)
+  r = pixel:byte(1)
+  g = pixel:byte(2)
+  b = pixel:byte(3)
+  return { r = r, g = g, b = b }
 end
 
 function write_pixel(fout, p)
   local data = string.char((p.r), (p.g), (p.b))
-  for i = 1, pixel_width do
-    fout:write(data)
-  end
+  fout:write(data)
 end
 
 -- Quantize one component
@@ -66,28 +56,21 @@ function main(in_file, out_file)
   local fin = assert(io.open(in_file, "rb"))
   local fout = assert(io.open(out_file, "wb"))
 
-  local wide_pixels = width / pixel_width
-
   -- Initialise error diffuser thing
   local prev_line = {}
-  for x = 1, wide_pixels do
+  for x = 1, width do
     prev_line[x] = black
   end
 
-  -- Fraction to diffuse horizontally
-  local h_fract = 1 / (pixel_width + 1)
-  -- And vertically
-  local v_fract = 1 - h_fract
-
   for y = 1, height do
     local prev_pixel = black
-    for x = 1, wide_pixels do
+    for x = 1, width do
       local pixel = read_pixel(fin)
       pixel = add(add(pixel, prev_line[x]), prev_pixel)
       local qpixel = quantize(pixel)
       local err = add(pixel, mult(-1, qpixel))
-      local prev_pixel = mult(h_fract, err)
-      prev_line[x] = mult(v_fract, err)
+      local prev_pixel = mult(0.5, err)
+      prev_line[x] = mult(0.5, err)
       write_pixel(fout, qpixel)
     end
   end

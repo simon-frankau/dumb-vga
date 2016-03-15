@@ -1,19 +1,14 @@
 -- Generate an EEPROM image suitable for display on VGA
 
--- Rather than run at a real dot clock rate (~30MHz for VGA), we'll
--- use a rather slower clock, and have somewhat fat pixels.
-
-local dot_clock_cheat = 2
-
-local h_front_porch = 32 / dot_clock_cheat
-local h_sync = 128 / dot_clock_cheat
-local h_back_porch = 96 / dot_clock_cheat
-local h_visible = 768 / dot_clock_cheat
+local h_front_porch = 16
+local h_sync = 64
+local h_back_porch = 48
+local h_visible = 384
 
 local v_front_porch = 1
-local v_sync =  3
-local v_back_porch = 28
-local v_visible = 480
+local v_sync =  1
+local v_back_porch = 14
+local v_visible = 240
 
 local rom_size = 512 * 1024
 

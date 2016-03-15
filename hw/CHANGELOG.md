@@ -51,3 +51,8 @@ as the clock for the latch. It seems to do the trick.
 A downside is that the animation now only runs at twice the speed as
 before (a bit manic), but it's a trade-off I'm willing to take to
 eliminate a whole IC from a small design.
+
+# v0.5
+
+Rearranged the counter to perform scan-line doubling, which gives us
+space for 4 frames in the Flash memory, as well as squarer pixels.

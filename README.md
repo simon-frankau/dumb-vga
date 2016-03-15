@@ -12,17 +12,15 @@ into a flash memory, so that the flash memory is a multiple of the
 screen size - not the visible screen size, but the screen size with
 all the sync bits.
 
-A bit of twiddling gives a 768x480 visible display that is 1024x512
+A bit of twiddling gives a 384x240 visible display that is 512x256
 once all the sync etc. is factored in.
 
 ## Clocking
 
-Rather than try to engineer something with a ~30MHz clock, I decided
-to start with a basic version that can only display "super-wide"
-pixels, by running using a 2MHz clock, making each pixel 16
-"underlying" pixels wide. Low horizontal resolution in exchange for
-making my life a lot easier. This has now been upgraded to a 32MHz
-clock being used to produce a 16MHz dot clock.
+A 32MHz clock is used as a dot clock for a 768x480 image at 60 FPS
+(1024x512 when sync signals are factored in). The Flash cannot handle
+a 32MHz data rate, but we clock it every other cycle and do scan-line
+doubling to display a 384x240 image.
 
 ## VGA levels
 
@@ -56,5 +54,4 @@ transients, but it's what I had to hand, and seems to work fine.)
 
 ## TODO
 
- * Look into scan-line doubling
  * Design and manufacture a custom PCB for the project.
