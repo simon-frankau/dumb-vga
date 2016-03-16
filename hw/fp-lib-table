@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name HD15_B)(type Legacy)(uri "/Library/Application Support/kicad/library/converted/HD15_B.mod")(options "")(descr ""))
+  (lib (name hw)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)
