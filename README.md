@@ -55,5 +55,6 @@ transients, but it's what I had to hand, and seems to work fine.)
 ## TODO
 
  * Tweak D2A resistances to improve colour range?
+ * Stop referring to *all* the libraries in the project (takes ages to load).
  * Design and manufacture a custom PCB for the project.
- * Improve the scripts that build the ROM image
+ * Improve the scripts that build the ROM image.
