@@ -56,5 +56,10 @@ transients, but it's what I had to hand, and seems to work fine.)
 
  * Tweak D2A resistances to improve colour range?
  * Stop referring to *all* the libraries in the project (takes ages to load).
- * Design and manufacture a custom PCB for the project.
  * Improve the scripts that build the ROM image.
+ * Design and manufacture a custom PCB for the project.
+  * Change the line assignment for the scripts that build the ROM image
+    to match the new schematic
+  * Bump version number on the schematic
+  * Get right stuff on the silkscreen
+  * Cost up suppliers
