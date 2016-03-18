@@ -60,3 +60,7 @@ space for 4 frames in the Flash memory, as well as squarer pixels.
 # v0.6
 
 Added jumpers to allow control of the animation rate.
+
+# v0.7
+
+Swapped data lines around to simplify PCB routing.

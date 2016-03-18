@@ -863,7 +863,7 @@ encoding utf-8
 Sheet 1 1
 Title "Dumb VGA"
 Date ""
-Rev "v0.6"
+Rev "v0.7"
 Comp ""
 Comment1 "Simple circuit to generate VGA-like signal"
 Comment2 ""
