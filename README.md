@@ -52,14 +52,57 @@ supplying the address to a 29040 flash chip. A 74HC574 latches the
 values for the display. (A 74HC574 triggers on the wrong edge to avoid
 transients, but it's what I had to hand, and seems to work fine.)
 
+## PCB
+
+I sent the files in hw/gerbers to http://smart-prototyping.com/, and
+they quickly sent me back PCBs which did the job.
+
+### Assembly notes
+
+The PCB is pretty straightforward to assemble (no surface mount!) as
+long as you pay attention to the orientations, as I oriented things to
+make routing easy, rather than assembly.
+
+There should be enough space for a ZIF for the flash chip, although I
+only used an IC socket.
+
+The PCB has been designed to support 8-pin-sized oscillators as well
+as 14-pin-sized oscillators. However, I installed the larger size.
+Take a careful look at the PCB to see how to install the smaller
+crystal if that's what you have. Check that power and ground reach the
+appropriate pins.
+
+Note that pin 1 of the power connector is ground, and pin 3 is Vcc.
+This is something I wasn't paying attention to when setting up the
+schematic (nor did I label it on the silkscreen).
+
+### Animation speed
+
+There are two headers on the board that you can jumper to set the
+animation speed. They look like this:
+
+```
+ . . .   . . .
+   P3      P2
+```
+
+The possibilities are:
+
+```
+ === .   === . Slow
+
+ === .   . === Medium
+
+ . ===   . === Fast
+```
+
+Note that only "medium" displays the 4 frames in the order they are in
+memory (i.e. 1 2 3 4 1 2 3 4 ...). In the other two modes, the order
+is 1 3 2 4 1 3 2 4 ... (if you're wondering why, it's because the
+2-bit counter is bit-reversed). You will need to take this into
+account when programming your animations.
+
 ## TODO
 
- * Tweak D2A resistances to improve colour range?
  * Stop referring to *all* the libraries in the project (takes ages to load).
  * Improve the scripts that build the ROM image.
- * Design and manufacture a custom PCB for the project.
-  * Change the line assignment for the scripts that build the ROM image
-    to match the new schematic
-  * Bump version number on the schematic
-  * Get right stuff on the silkscreen
-  * Cost up suppliers
