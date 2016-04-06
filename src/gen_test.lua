@@ -1,4 +1,7 @@
 -- Generate an EEPROM image suitable for display on VGA
+--
+-- NB: Pattern produced differs from photos I've taken because the bit
+-- ordering has changed since the original prototype.
 
 local h_front_porch = 16
 local h_sync = 64
@@ -31,15 +34,15 @@ end
 
 local repeats = rom_size / total
 
-local v_sync_val = 0x80
-local h_sync_val = 0x40
+local v_sync_val = 0x02
+local h_sync_val = 0x01
 
 function pixel_at(x, y)
   -- x value controls bottom two bits
   local low = math.floor((x - 1) * 4 / h_visible)
   -- y value controls next 4 bits
   local high = math.floor((y - 1) * 16 / v_visible)
-  return high * 4 + low
+  return (high * 4 + low) * 4
 end
 
 function write_byte(out, b)

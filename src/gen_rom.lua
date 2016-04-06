@@ -38,7 +38,7 @@ function read_pixel(f, x, y)
   g = math.floor(g / 64) % 4
   b = math.floor(b / 64) % 4
   -- Assemble and store the value
-  data[y][x] = r * 16 + g * 4 + b
+  data[y][x] = (r * 16 + g * 4 + b) * 4
 end
 
 function read_image(f)
@@ -54,8 +54,8 @@ end
 -- ROM writing part
 --
 
-local v_sync_val = 0x80
-local h_sync_val = 0x40
+local v_sync_val = 0x02
+local h_sync_val = 0x01
 
 function pixel_at(x, y)
   return data[y][x]
