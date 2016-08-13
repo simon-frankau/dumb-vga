@@ -102,8 +102,27 @@ is 1 3 2 4 1 3 2 4 ... (if you're wondering why, it's because the
 2-bit counter is bit-reversed). You will need to take this into
 account when programming your animations.
 
+## ROM image generation
+
+The 'build.sh' script will generate a nice spinny <a
+href="http://knowyourmeme.com/memes/bad-advice-cat">Bad Advice cat</a>
+ROM image. If you're using medium-speed mode, you'll need to pass the
+'swap' flag.
+
+I was originally hoping to script up the image wrangling mostly in
+Gimp, but it turns out the script-fu support is rubbish. You can't
+even <a
+href="https://github.com/marcelteun/GIMP-raw-file-load/blob/5f02e7607b1645d54b11bb9f01d44e362abca2d1/file-raw-load.c#L237">load
+a raw .data file in a non-interactive script</a>. So, it's just raw
+data files.
+
+cat.data.gz was generated from cat.png using the Gimp interactively.
+Which was me just scrubbing the background off the Bad Advice Cat
+image. Minor copyright infringement is probably involved.
+
+If you want to create your own image, I'm sure you can work out how to
+do it by looking at build.sh and the lua scripts.
+
 ## TODO
 
  * Stop referring to *all* the libraries in the project (takes ages to load).
- * Improve the scripts that build the ROM image.
- * Update scripts for new resolution?
