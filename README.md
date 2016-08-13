@@ -122,7 +122,3 @@ image. Minor copyright infringement is probably involved.
 
 If you want to create your own image, I'm sure you can work out how to
 do it by looking at build.sh and the lua scripts.
-
-## TODO
-
- * Stop referring to *all* the libraries in the project (takes ages to load).
