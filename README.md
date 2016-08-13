@@ -104,17 +104,15 @@ account when programming your animations.
 
 ## ROM image generation
 
-The 'build.sh' script will generate a nice spinny <a
-href="http://knowyourmeme.com/memes/bad-advice-cat">Bad Advice cat</a>
-ROM image. If you're using medium-speed mode, you'll need to pass the
-'swap' flag.
+The 'build.sh' script will generate a nice spinny [Bad Advice
+cat](http://knowyourmeme.com/memes/bad-advice-cat) ROM image. If
+you're using medium-speed mode, you'll need to pass the 'swap' flag.
 
 I was originally hoping to script up the image wrangling mostly in
 Gimp, but it turns out the script-fu support is rubbish. You can't
-even <a
-href="https://github.com/marcelteun/GIMP-raw-file-load/blob/5f02e7607b1645d54b11bb9f01d44e362abca2d1/file-raw-load.c#L237">load
-a raw .data file in a non-interactive script</a>. So, it's just raw
-data files.
+even [load a raw .data file in a non-interactive
+script](https://github.com/marcelteun/GIMP-raw-file-load/blob/5f02e7607b1645d54b11bb9f01d44e362abca2d1/file-raw-load.c#L237).
+So, it's just raw data files.
 
 cat.data.gz was generated from cat.png using the Gimp interactively.
 Which was me just scrubbing the background off the Bad Advice Cat
