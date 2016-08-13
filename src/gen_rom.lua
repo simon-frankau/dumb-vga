@@ -16,8 +16,47 @@ local v_sync =  1
 local v_back_porch = 14
 local v_visible = 240
 
-local in_file = "in.data"
-local out_file = "vga.bin"
+------------------------------------------------------------------------
+-- Argument reading
+
+local in_file
+local out_file
+
+do
+    local i = 1
+    while i <= #arg do
+        if arg[i] == "-i" then
+            i = i + 1
+            in_file = arg[i]
+        elseif arg[i] == "-o" then
+            i = i + 1
+            out_file = arg[i]
+        elseif arg[i] == "-w" then
+            i = i + 1
+            width = arg[i]
+        elseif arg[i] == "-h" then
+            i = i + 1
+            height = arg[i]
+        elseif arg[i] == "-c" then
+            i = i + 1
+            colour_levels = arg[i]
+        else
+            print(arg[0] .. ": Unrecognised option: " .. arg[i])
+            os.exit(1)
+        end
+        i = i + 1
+    end
+end
+
+if in_file == nil then
+    print(arg[0] .. ": Input filename required")
+    os.exit(1)
+end
+
+if out_file == nil then
+    print(arg[0] .. ": Output filename required")
+    os.exit(1)
+end
 
 ------------------------------------------------------------------------
 -- Image reading part

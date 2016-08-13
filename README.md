@@ -106,3 +106,4 @@ account when programming your animations.
 
  * Stop referring to *all* the libraries in the project (takes ages to load).
  * Improve the scripts that build the ROM image.
+ * Update scripts for new resolution?
