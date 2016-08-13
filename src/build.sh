@@ -5,6 +5,15 @@ set -e
 # Generate the "sunburst"
 lua gen_img.lua
 
+# Swap ordering of frames if you're running in "medium" speed
+# animation mode.
+if [[ "$1" == "swap" ]]
+then
+  mv out2.data saved.data
+  mv out3.data out2.data
+  mv saved.data out3.data
+fi
+
 # Extract the compressed cat image data
 gunzip -kf cat.data.gz
 
