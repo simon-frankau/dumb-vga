@@ -93,7 +93,7 @@
     <comp ref="IC1">
       <value>74HC590N</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <libsource lib="dumb-vga" part="74HC590N" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -102,7 +102,7 @@
     <comp ref="IC2">
       <value>74HC590N</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <libsource lib="dumb-vga" part="74HC590N" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -111,7 +111,7 @@
     <comp ref="IC3">
       <value>74HC590N</value>
       <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <libsource lib="dumb-vga" part="74HC590N" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -120,7 +120,7 @@
     <comp ref="IC4">
       <value>74HC574N</value>
       <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
-      <libsource lib="dumb-vga-rescue" part="74HC574N" description=""/>
+      <libsource lib="dumb-vga" part="74HC574N" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,7 +240,7 @@
     <comp ref="U1">
       <value>A29040C</value>
       <footprint>Package_DIP:DIP-32_W15.24mm</footprint>
-      <libsource lib="dumb-vga-rescue" part="A29040C" description=""/>
+      <libsource lib="dumb-vga" part="A29040C" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -249,7 +249,7 @@
     <comp ref="X1">
       <value>VGAF</value>
       <footprint>hw:hd15f</footprint>
-      <libsource lib="dumb-vga-rescue" part="VGAF" description=""/>
+      <libsource lib="dumb-vga" part="VGAF" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -342,7 +342,7 @@
         <pin num="14" name="Vcc" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="dumb-vga-rescue" part="74HC574N">
+    <libpart lib="dumb-vga" part="74HC574N">
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">74HC574N</field>
@@ -371,7 +371,7 @@
         <pin num="20" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="dumb-vga-rescue" part="74HC590N">
+    <libpart lib="dumb-vga" part="74HC590N">
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">74HC590N</field>
@@ -396,7 +396,7 @@
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="dumb-vga-rescue" part="A29040C">
+    <libpart lib="dumb-vga" part="A29040C">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">A29040C</field>
@@ -437,7 +437,7 @@
         <pin num="32" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="dumb-vga-rescue" part="VGAF">
+    <libpart lib="dumb-vga" part="VGAF">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">VGAF</field>
@@ -474,8 +474,8 @@
     <library logical="Oscillator">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Oscillator.kicad_sym</uri>
     </library>
-    <library logical="dumb-vga-rescue">
-      <uri>/Users/sgf/stuff/projects/dumb-vga/hw/dumb-vga-rescue.kicad_sym</uri>
+    <library logical="dumb-vga">
+      <uri>/Users/sgf/stuff/projects/dumb-vga/hw/dumb-vga.kicad_sym</uri>
     </library>
   </libraries>
   <nets>

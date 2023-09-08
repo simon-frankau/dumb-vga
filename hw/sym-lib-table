@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "dumb-vga-rescue")(type "KiCad")(uri "${KIPRJMOD}/dumb-vga-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "dumb-vga")(type "KiCad")(uri "${KIPRJMOD}/dumb-vga.kicad_sym")(options "")(descr ""))
 )
