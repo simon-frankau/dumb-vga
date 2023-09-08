@@ -1,185 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <source>/Users/sgf/stuff/projects/dumb-vga/hw/dumb-vga.sch</source>
-    <date>Wednesday, 06 April 2016 'amt' 08:39:48</date>
-    <tool>Eeschema 4.0.1-stable</tool>
+    <source>/Users/sgf/stuff/projects/dumb-vga/hw/dumb-vga.kicad_sch</source>
+    <date>2023 September 08, Friday 22:53:07</date>
+    <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Dumb VGA</title>
         <company/>
         <rev>v0.7</rev>
         <date/>
-        <source>dumb-vga.sch</source>
+        <source>dumb-vga.kicad_sch</source>
         <comment number="1" value="Simple circuit to generate VGA-like signal"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="IC1">
-      <value>74HC590N</value>
-      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="74xx-eu" part="74HC590N"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA16C0</tstamp>
-    </comp>
-    <comp ref="IC2">
-      <value>74HC590N</value>
-      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="74xx-eu" part="74HC590N"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA179A</tstamp>
-    </comp>
-    <comp ref="IC3">
-      <value>74HC590N</value>
-      <footprint>Housings_DIP:DIP-16_W7.62mm</footprint>
-      <libsource lib="74xx-eu" part="74HC590N"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1806</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>0.1u</value>
+    <comp ref="C1">
+      <value>10u</value>
       <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1CBC</tstamp>
-    </comp>
-    <comp ref="C4">
-      <value>0.1u</value>
-      <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1D0F</tstamp>
-    </comp>
-    <comp ref="C5">
-      <value>0.1u</value>
-      <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1D49</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1dcd</tstamps>
     </comp>
     <comp ref="C2">
       <value>0.1u</value>
       <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1D83</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1d83</tstamps>
     </comp>
-    <comp ref="C1">
-      <value>10u</value>
+    <comp ref="C3">
+      <value>0.1u</value>
       <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA1DCD</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1cbc</tstamps>
     </comp>
-    <comp ref="R4">
-      <value>1.5K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA4E6A</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1d0f</tstamps>
     </comp>
-    <comp ref="R5">
-      <value>1.5K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA4F18</tstamp>
-    </comp>
-    <comp ref="R6">
-      <value>1.5K</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA4F85</tstamp>
-    </comp>
-    <comp ref="R1">
-      <value>680</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA509B</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>680</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA50ED</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>680</value>
-      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA51C2</tstamp>
-    </comp>
-    <comp ref="X1">
-      <value>VGAF</value>
-      <footprint>hw:hd15f</footprint>
-      <libsource lib="HD15_B" part="VGAF"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DA717F</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>A29040C</value>
-      <footprint>Housings_DIP:DIP-32_W15.24mm</footprint>
-      <libsource lib="a29040c" part="A29040C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DAAEE9</tstamp>
-    </comp>
-    <comp ref="IC4">
-      <value>74HC574N</value>
-      <footprint>Housings_DIP:DIP-20_W7.62mm</footprint>
-      <libsource lib="74xx-eu" part="74HC574N"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DAB533</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1d49</tstamps>
     </comp>
     <comp ref="C6">
       <value>0.1u</value>
       <footprint>Capacitors_ThroughHole:C_Rect_L7_W2.5_P5</footprint>
-      <libsource lib="device" part="C"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56DAD2BB</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056dad2bb</tstamps>
     </comp>
-    <comp ref="QG1">
-      <value>XO-14</value>
-      <footprint>hw:xo-8-14</footprint>
-      <libsource lib="crystal" part="XO-14"/>
+    <comp ref="IC1">
+      <value>74HC590N</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56E0A684</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da16f1 00000000-0000-0000-0000-000056da16c0</tstamps>
     </comp>
-    <comp ref="P3">
-      <value>CONN_01X03</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+    <comp ref="IC2">
+      <value>74HC590N</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56E873E0</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da18ae 00000000-0000-0000-0000-000056da179a</tstamps>
     </comp>
-    <comp ref="P2">
-      <value>CONN_01X03</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+    <comp ref="IC3">
+      <value>74HC590N</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="dumb-vga-rescue" part="74HC590N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56E87448</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056da1926 00000000-0000-0000-0000-000056da1806</tstamps>
+    </comp>
+    <comp ref="IC4">
+      <value>74HC574N</value>
+      <footprint>Package_DIP:DIP-20_W7.62mm</footprint>
+      <libsource lib="dumb-vga-rescue" part="74HC574N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056dad254 00000000-0000-0000-0000-000056dab533</tstamps>
     </comp>
     <comp ref="P1">
       <value>CONN_01X03</value>
       <footprint>Pin_Headers:Pin_Header_Angled_1x03</footprint>
-      <libsource lib="conn" part="CONN_01X03"/>
+      <libsource lib="Connector" part="Conn_01x03_Socket" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>56E9ECEC</tstamp>
+      <tstamps>00000000-0000-0000-0000-000056e9ecec</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056e87448</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>CONN_01X03</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x03, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056e873e0</tstamps>
+    </comp>
+    <comp ref="QG1">
+      <value>XO-14</value>
+      <footprint>Oscillator:Oscillator_DIP-14</footprint>
+      <datasheet>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</datasheet>
+      <libsource lib="Oscillator" part="CXO_DIP14" description="Crystal Clock Oscillator, DIP14-style metal package"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Crystal Clock Oscillator, DIP14-style metal package"/>
+      <property name="ki_keywords" value="Crystal Clock Oscillator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056e0a684</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>680</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da509b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>680</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da50ed</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>680</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da51c2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1.5K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da4e6a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1.5K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da4f18</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1.5K</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da4f85</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>A29040C</value>
+      <footprint>Package_DIP:DIP-32_W15.24mm</footprint>
+      <libsource lib="dumb-vga-rescue" part="A29040C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056daaee9</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>VGAF</value>
+      <footprint>hw:hd15f</footprint>
+      <libsource lib="dumb-vga-rescue" part="VGAF" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dumb-vga.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056da717f</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="74xx-eu" part="74HC574N">
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Socket">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="CXO_DIP14">
+      <description>Crystal Clock Oscillator, DIP14-style metal package</description>
+      <docs>http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</docs>
+      <footprints>
+        <fp>Oscillator*DIP*14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CXO_DIP14</field>
+        <field name="Footprint">Oscillator:Oscillator_DIP-14</field>
+        <field name="Datasheet">http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="14" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="dumb-vga-rescue" part="74HC574N">
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">74HC574N</field>
-        <field name="Footprint">74xx-eu-DIL20</field>
+        <field name="Footprint">Package_DIP:DIP-20_W7.62mm</field>
       </fields>
       <pins>
         <pin num="1" name="OC" type="input"/>
@@ -193,31 +360,31 @@
         <pin num="9" name="8D" type="input"/>
         <pin num="10" name="GND" type="power_in"/>
         <pin num="11" name="CLK" type="input"/>
-        <pin num="12" name="8Q" type="3state"/>
-        <pin num="13" name="7Q" type="3state"/>
-        <pin num="14" name="6Q" type="3state"/>
-        <pin num="15" name="5Q" type="3state"/>
-        <pin num="16" name="4Q" type="3state"/>
-        <pin num="17" name="3Q" type="3state"/>
-        <pin num="18" name="2Q" type="3state"/>
-        <pin num="19" name="1Q" type="3state"/>
+        <pin num="12" name="8Q" type="tri_state"/>
+        <pin num="13" name="7Q" type="tri_state"/>
+        <pin num="14" name="6Q" type="tri_state"/>
+        <pin num="15" name="5Q" type="tri_state"/>
+        <pin num="16" name="4Q" type="tri_state"/>
+        <pin num="17" name="3Q" type="tri_state"/>
+        <pin num="18" name="2Q" type="tri_state"/>
+        <pin num="19" name="1Q" type="tri_state"/>
         <pin num="20" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="74xx-eu" part="74HC590N">
+    <libpart lib="dumb-vga-rescue" part="74HC590N">
       <fields>
         <field name="Reference">IC</field>
         <field name="Value">74HC590N</field>
-        <field name="Footprint">74xx-eu-DIL16</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
       </fields>
       <pins>
-        <pin num="1" name="QB" type="3state"/>
-        <pin num="2" name="QC" type="3state"/>
-        <pin num="3" name="QD" type="3state"/>
-        <pin num="4" name="QE" type="3state"/>
-        <pin num="5" name="QF" type="3state"/>
-        <pin num="6" name="QG" type="3state"/>
-        <pin num="7" name="QH" type="3state"/>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
         <pin num="8" name="GND" type="power_in"/>
         <pin num="9" name="RCO" type="output"/>
         <pin num="10" name="CCLR" type="input"/>
@@ -225,16 +392,15 @@
         <pin num="12" name="CCKEN" type="input"/>
         <pin num="13" name="RCK" type="input"/>
         <pin num="14" name="G" type="input"/>
-        <pin num="15" name="QA" type="3state"/>
+        <pin num="15" name="QA" type="tri_state"/>
         <pin num="16" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="a29040c" part="A29040C">
-      <description>Flash 512K x  8 bits (32 pins DIP or PLCC)</description>
-      <docs>memory/29040.pdf</docs>
+    <libpart lib="dumb-vga-rescue" part="A29040C">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">A29040C</field>
+        <field name="Footprint">Package_DIP:DIP-32_W15.24mm</field>
       </fields>
       <pins>
         <pin num="1" name="A18" type="input"/>
@@ -249,15 +415,15 @@
         <pin num="10" name="A2" type="input"/>
         <pin num="11" name="A1" type="input"/>
         <pin num="12" name="A0" type="input"/>
-        <pin num="13" name="D0" type="3state"/>
-        <pin num="14" name="D1" type="3state"/>
-        <pin num="15" name="D2" type="3state"/>
+        <pin num="13" name="D0" type="tri_state"/>
+        <pin num="14" name="D1" type="tri_state"/>
+        <pin num="15" name="D2" type="tri_state"/>
         <pin num="16" name="GND" type="power_in"/>
-        <pin num="17" name="D3" type="3state"/>
-        <pin num="18" name="D4" type="3state"/>
-        <pin num="19" name="D5" type="3state"/>
-        <pin num="20" name="D6" type="3state"/>
-        <pin num="21" name="D7" type="3state"/>
+        <pin num="17" name="D3" type="tri_state"/>
+        <pin num="18" name="D4" type="tri_state"/>
+        <pin num="19" name="D5" type="tri_state"/>
+        <pin num="20" name="D6" type="tri_state"/>
+        <pin num="21" name="D7" type="tri_state"/>
         <pin num="22" name="CE" type="input"/>
         <pin num="23" name="A10" type="input"/>
         <pin num="24" name="OE" type="input"/>
@@ -271,62 +437,11 @@
         <pin num="32" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <description>Connector 01x03</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
-      <footprints>
-        <fp>R_*</fp>
-        <fp>Resistor_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="HD15_B" part="VGAF">
+    <libpart lib="dumb-vga-rescue" part="VGAF">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">VGAF</field>
-        <field name="Footprint">HD15_B-HD15F</field>
+        <field name="Footprint">hw:hd15f</field>
       </fields>
       <pins>
         <pin num="1" name="P$1" type="passive"/>
@@ -348,314 +463,295 @@
         <pin num="SH2" name="SH2" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="crystal" part="XO-14">
-      <fields>
-        <field name="Reference">QG</field>
-        <field name="Value">XO-14</field>
-        <field name="Footprint">crystal-DIL14S</field>
-      </fields>
-      <pins>
-        <pin num="1" name="TS" type="passive"/>
-        <pin num="7" name="GND" type="power_in"/>
-        <pin num="8" name="OUT" type="output"/>
-        <pin num="14" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="a29040c">
-      <uri>/Users/sgf/stuff/projects/dumb-vga/hw/a29040c.lib</uri>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
-    <library logical="HD15_B">
-      <uri>/Library/Application Support/kicad/library/converted/HD15_B.lib</uri>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="device">
-      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    <library logical="Oscillator">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Oscillator.kicad_sym</uri>
     </library>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="74xx-eu">
-      <uri>/Library/Application Support/kicad/library/converted/74xx-eu.lib</uri>
-    </library>
-    <library logical="crystal">
-      <uri>/Library/Application Support/kicad/library/converted/crystal.lib</uri>
+    <library logical="dumb-vga-rescue">
+      <uri>/Users/sgf/stuff/projects/dumb-vga/hw/dumb-vga-rescue.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(IC4-Pad8)">
-      <node ref="IC4" pin="8"/>
-      <node ref="U1" pin="14"/>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="12" pinfunction="CCKEN" pintype="input"/>
+      <node ref="IC1" pin="14" pinfunction="G" pintype="input"/>
+      <node ref="IC1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="14" pinfunction="G" pintype="input"/>
+      <node ref="IC2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC3" pin="12" pinfunction="CCKEN" pintype="input"/>
+      <node ref="IC3" pin="14" pinfunction="G" pintype="input"/>
+      <node ref="IC3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC4" pin="1" pinfunction="OC" pintype="input"/>
+      <node ref="IC4" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="P1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="QG1" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="22" pinfunction="CE" pintype="input"/>
+      <node ref="U1" pin="24" pinfunction="OE" pintype="input"/>
+      <node ref="X1" pin="10" pinfunction="P$10" pintype="passive"/>
+      <node ref="X1" pin="5" pinfunction="P$5" pintype="passive"/>
+      <node ref="X1" pin="6" pinfunction="P$6" pintype="passive"/>
+      <node ref="X1" pin="7" pinfunction="P$7" pintype="passive"/>
+      <node ref="X1" pin="8" pinfunction="P$8" pintype="passive"/>
     </net>
-    <net code="2" name="Net-(IC4-Pad7)">
-      <node ref="IC4" pin="7"/>
-      <node ref="U1" pin="15"/>
+    <net code="2" name="Net-(IC1A-CLK)">
+      <node ref="IC1" pin="11" pinfunction="CLK" pintype="input"/>
+      <node ref="IC1" pin="13" pinfunction="RCK" pintype="input"/>
+      <node ref="IC2" pin="11" pinfunction="CLK" pintype="input"/>
+      <node ref="IC2" pin="13" pinfunction="RCK" pintype="input"/>
+      <node ref="IC3" pin="13" pinfunction="RCK" pintype="input"/>
+      <node ref="QG1" pin="8" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="3" name="Net-(IC4-Pad6)">
-      <node ref="U1" pin="17"/>
-      <node ref="IC4" pin="6"/>
+    <net code="3" name="Net-(IC1A-QA)">
+      <node ref="IC1" pin="15" pinfunction="QA" pintype="tri_state"/>
+      <node ref="IC4" pin="11" pinfunction="CLK" pintype="input"/>
     </net>
-    <net code="4" name="Net-(IC4-Pad5)">
-      <node ref="IC4" pin="5"/>
-      <node ref="U1" pin="18"/>
+    <net code="4" name="Net-(IC1A-QB)">
+      <node ref="IC1" pin="1" pinfunction="QB" pintype="tri_state"/>
+      <node ref="U1" pin="12" pinfunction="A0" pintype="input"/>
     </net>
-    <net code="5" name="Net-(IC4-Pad4)">
-      <node ref="IC4" pin="4"/>
-      <node ref="U1" pin="19"/>
+    <net code="5" name="Net-(IC1A-QC)">
+      <node ref="IC1" pin="2" pinfunction="QC" pintype="tri_state"/>
+      <node ref="U1" pin="11" pinfunction="A1" pintype="input"/>
     </net>
-    <net code="6" name="Net-(IC3-Pad15)">
-      <node ref="IC3" pin="15"/>
-      <node ref="U1" pin="29"/>
+    <net code="6" name="Net-(IC1A-QD)">
+      <node ref="IC1" pin="3" pinfunction="QD" pintype="tri_state"/>
+      <node ref="U1" pin="10" pinfunction="A2" pintype="input"/>
     </net>
-    <net code="7" name="Net-(IC2-Pad7)">
-      <node ref="U1" pin="28"/>
-      <node ref="IC2" pin="7"/>
+    <net code="7" name="Net-(IC1A-QE)">
+      <node ref="IC1" pin="4" pinfunction="QE" pintype="tri_state"/>
+      <node ref="U1" pin="9" pinfunction="A3" pintype="input"/>
     </net>
-    <net code="8" name="Net-(IC2-Pad1)">
-      <node ref="IC2" pin="1"/>
-      <node ref="U1" pin="27"/>
+    <net code="8" name="Net-(IC1A-QF)">
+      <node ref="IC1" pin="5" pinfunction="QF" pintype="tri_state"/>
+      <node ref="U1" pin="8" pinfunction="A4" pintype="input"/>
     </net>
-    <net code="9" name="Net-(IC2-Pad3)">
-      <node ref="IC2" pin="3"/>
-      <node ref="U1" pin="26"/>
+    <net code="9" name="Net-(IC1A-QG)">
+      <node ref="IC1" pin="6" pinfunction="QG" pintype="tri_state"/>
+      <node ref="U1" pin="7" pinfunction="A5" pintype="input"/>
     </net>
-    <net code="10" name="Net-(IC2-Pad5)">
-      <node ref="IC2" pin="5"/>
-      <node ref="U1" pin="25"/>
+    <net code="10" name="Net-(IC1A-QH)">
+      <node ref="IC1" pin="7" pinfunction="QH" pintype="tri_state"/>
+      <node ref="U1" pin="6" pinfunction="A6" pintype="input"/>
     </net>
-    <net code="11" name="Net-(IC2-Pad4)">
-      <node ref="IC2" pin="4"/>
-      <node ref="U1" pin="23"/>
+    <net code="11" name="Net-(IC1A-RCO)">
+      <node ref="IC1" pin="9" pinfunction="RCO" pintype="output"/>
+      <node ref="IC2" pin="12" pinfunction="CCKEN" pintype="input"/>
     </net>
-    <net code="12" name="Net-(IC4-Pad16)">
-      <node ref="IC4" pin="16"/>
-      <node ref="R5" pin="2"/>
+    <net code="12" name="Net-(IC2A-QA)">
+      <node ref="IC2" pin="15" pinfunction="QA" pintype="tri_state"/>
+      <node ref="U1" pin="5" pinfunction="A7" pintype="input"/>
     </net>
-    <net code="13" name="Net-(IC4-Pad17)">
-      <node ref="IC4" pin="17"/>
-      <node ref="R2" pin="2"/>
+    <net code="13" name="Net-(IC2A-QB)">
+      <node ref="IC2" pin="1" pinfunction="QB" pintype="tri_state"/>
+      <node ref="U1" pin="27" pinfunction="A8" pintype="input"/>
     </net>
-    <net code="14" name="Net-(X1-Pad15)">
-      <node ref="X1" pin="15"/>
+    <net code="14" name="Net-(IC2A-QD)">
+      <node ref="IC2" pin="3" pinfunction="QD" pintype="tri_state"/>
+      <node ref="U1" pin="26" pinfunction="A9" pintype="input"/>
     </net>
-    <net code="15" name="Net-(IC4-Pad13)">
-      <node ref="X1" pin="14"/>
-      <node ref="IC4" pin="13"/>
+    <net code="15" name="Net-(IC2A-QE)">
+      <node ref="IC2" pin="4" pinfunction="QE" pintype="tri_state"/>
+      <node ref="U1" pin="23" pinfunction="A10" pintype="input"/>
     </net>
-    <net code="16" name="Net-(IC4-Pad12)">
-      <node ref="X1" pin="13"/>
-      <node ref="IC4" pin="12"/>
+    <net code="16" name="Net-(IC2A-QF)">
+      <node ref="IC2" pin="5" pinfunction="QF" pintype="tri_state"/>
+      <node ref="U1" pin="25" pinfunction="A11" pintype="input"/>
     </net>
-    <net code="17" name="Net-(X1-Pad12)">
-      <node ref="X1" pin="12"/>
+    <net code="17" name="Net-(IC2A-QG)">
+      <node ref="IC2" pin="6" pinfunction="QG" pintype="tri_state"/>
+      <node ref="U1" pin="4" pinfunction="A12" pintype="input"/>
     </net>
-    <net code="18" name="Net-(X1-Pad11)">
-      <node ref="X1" pin="11"/>
+    <net code="18" name="Net-(IC2A-QH)">
+      <node ref="IC2" pin="7" pinfunction="QH" pintype="tri_state"/>
+      <node ref="U1" pin="28" pinfunction="A13" pintype="input"/>
     </net>
-    <net code="19" name="Net-(X1-Pad9)">
-      <node ref="X1" pin="9"/>
+    <net code="19" name="Net-(IC2A-RCO)">
+      <node ref="IC2" pin="9" pinfunction="RCO" pintype="output"/>
+      <node ref="IC3" pin="11" pinfunction="CLK" pintype="input"/>
     </net>
-    <net code="20" name="Net-(X1-Pad4)">
-      <node ref="X1" pin="4"/>
+    <net code="20" name="Net-(IC3A-QA)">
+      <node ref="IC3" pin="15" pinfunction="QA" pintype="tri_state"/>
+      <node ref="U1" pin="29" pinfunction="A14" pintype="input"/>
     </net>
-    <net code="21" name="GND">
-      <node ref="C6" pin="2"/>
-      <node ref="QG1" pin="7"/>
-      <node ref="X1" pin="10"/>
-      <node ref="C1" pin="2"/>
-      <node ref="IC4" pin="1"/>
-      <node ref="U1" pin="24"/>
-      <node ref="IC1" pin="12"/>
-      <node ref="IC3" pin="8"/>
-      <node ref="IC4" pin="10"/>
-      <node ref="IC1" pin="14"/>
-      <node ref="IC1" pin="8"/>
-      <node ref="IC2" pin="8"/>
-      <node ref="IC2" pin="14"/>
-      <node ref="C3" pin="2"/>
-      <node ref="U1" pin="22"/>
-      <node ref="IC3" pin="14"/>
-      <node ref="IC3" pin="12"/>
-      <node ref="C2" pin="2"/>
-      <node ref="X1" pin="8"/>
-      <node ref="X1" pin="7"/>
-      <node ref="X1" pin="6"/>
-      <node ref="X1" pin="5"/>
-      <node ref="C5" pin="2"/>
-      <node ref="P1" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U1" pin="16"/>
+    <net code="21" name="Net-(IC3A-QB)">
+      <node ref="IC3" pin="1" pinfunction="QB" pintype="tri_state"/>
+      <node ref="U1" pin="3" pinfunction="A15" pintype="input"/>
     </net>
-    <net code="22" name="VCC">
-      <node ref="C6" pin="1"/>
-      <node ref="IC3" pin="16"/>
-      <node ref="U1" pin="31"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="IC1" pin="10"/>
-      <node ref="P1" pin="3"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="IC2" pin="10"/>
-      <node ref="U1" pin="32"/>
-      <node ref="IC2" pin="16"/>
-      <node ref="IC1" pin="16"/>
-      <node ref="IC3" pin="10"/>
-      <node ref="QG1" pin="14"/>
-      <node ref="IC4" pin="20"/>
+    <net code="22" name="Net-(IC3A-QC)">
+      <node ref="IC3" pin="2" pinfunction="QC" pintype="tri_state"/>
+      <node ref="U1" pin="2" pinfunction="A16" pintype="input"/>
     </net>
-    <net code="23" name="Net-(IC4-Pad14)">
-      <node ref="R6" pin="2"/>
-      <node ref="IC4" pin="14"/>
+    <net code="23" name="Net-(IC3A-QE)">
+      <node ref="IC3" pin="4" pinfunction="QE" pintype="tri_state"/>
+      <node ref="P3" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(IC4-Pad9)">
-      <node ref="U1" pin="13"/>
-      <node ref="IC4" pin="9"/>
+    <net code="24" name="Net-(IC3A-QF)">
+      <node ref="IC3" pin="5" pinfunction="QF" pintype="tri_state"/>
+      <node ref="P2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(IC1-Pad1)">
-      <node ref="U1" pin="12"/>
-      <node ref="IC1" pin="1"/>
+    <net code="25" name="Net-(IC3A-QG)">
+      <node ref="IC3" pin="6" pinfunction="QG" pintype="tri_state"/>
+      <node ref="P3" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(IC4-Pad2)">
-      <node ref="IC4" pin="2"/>
-      <node ref="U1" pin="21"/>
+    <net code="26" name="Net-(IC3A-QH)">
+      <node ref="IC3" pin="7" pinfunction="QH" pintype="tri_state"/>
+      <node ref="P2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(IC1-Pad2)">
-      <node ref="U1" pin="11"/>
-      <node ref="IC1" pin="2"/>
+    <net code="27" name="Net-(IC4A-1D)">
+      <node ref="IC4" pin="2" pinfunction="1D" pintype="input"/>
+      <node ref="U1" pin="21" pinfunction="D7" pintype="tri_state"/>
     </net>
-    <net code="28" name="Net-(IC4-Pad3)">
-      <node ref="U1" pin="20"/>
-      <node ref="IC4" pin="3"/>
+    <net code="28" name="Net-(IC4A-1Q)">
+      <node ref="IC4" pin="19" pinfunction="1Q" pintype="tri_state"/>
+      <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(IC1-Pad3)">
-      <node ref="U1" pin="10"/>
-      <node ref="IC1" pin="3"/>
+    <net code="29" name="Net-(IC4A-2D)">
+      <node ref="IC4" pin="3" pinfunction="2D" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="D6" pintype="tri_state"/>
     </net>
-    <net code="30" name="Net-(IC1-Pad4)">
-      <node ref="IC1" pin="4"/>
-      <node ref="U1" pin="9"/>
+    <net code="30" name="Net-(IC4A-2Q)">
+      <node ref="IC4" pin="18" pinfunction="2Q" pintype="tri_state"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(IC1-Pad5)">
-      <node ref="IC1" pin="5"/>
-      <node ref="U1" pin="8"/>
+    <net code="31" name="Net-(IC4A-3D)">
+      <node ref="IC4" pin="4" pinfunction="3D" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="D5" pintype="tri_state"/>
     </net>
-    <net code="32" name="Net-(IC1-Pad6)">
-      <node ref="IC1" pin="6"/>
-      <node ref="U1" pin="7"/>
+    <net code="32" name="Net-(IC4A-3Q)">
+      <node ref="IC4" pin="17" pinfunction="3Q" pintype="tri_state"/>
+      <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(IC1-Pad7)">
-      <node ref="U1" pin="6"/>
-      <node ref="IC1" pin="7"/>
+    <net code="33" name="Net-(IC4A-4D)">
+      <node ref="IC4" pin="5" pinfunction="4D" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="D4" pintype="tri_state"/>
     </net>
-    <net code="34" name="Net-(IC2-Pad15)">
-      <node ref="U1" pin="5"/>
-      <node ref="IC2" pin="15"/>
+    <net code="34" name="Net-(IC4A-4Q)">
+      <node ref="IC4" pin="16" pinfunction="4Q" pintype="tri_state"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="35" name="Net-(IC2-Pad6)">
-      <node ref="U1" pin="4"/>
-      <node ref="IC2" pin="6"/>
+    <net code="35" name="Net-(IC4A-5D)">
+      <node ref="IC4" pin="6" pinfunction="5D" pintype="input"/>
+      <node ref="U1" pin="17" pinfunction="D3" pintype="tri_state"/>
     </net>
-    <net code="36" name="Net-(X1-PadSH2)">
-      <node ref="X1" pin="SH2"/>
+    <net code="36" name="Net-(IC4A-5Q)">
+      <node ref="IC4" pin="15" pinfunction="5Q" pintype="tri_state"/>
+      <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="37" name="Net-(X1-PadSH1)">
-      <node ref="X1" pin="SH1"/>
+    <net code="37" name="Net-(IC4A-6D)">
+      <node ref="IC4" pin="7" pinfunction="6D" pintype="input"/>
+      <node ref="U1" pin="15" pinfunction="D2" pintype="tri_state"/>
     </net>
-    <net code="38" name="Net-(P3-Pad2)">
-      <node ref="U1" pin="1"/>
-      <node ref="P3" pin="2"/>
+    <net code="38" name="Net-(IC4A-6Q)">
+      <node ref="IC4" pin="14" pinfunction="6Q" pintype="tri_state"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(P2-Pad2)">
-      <node ref="U1" pin="30"/>
-      <node ref="P2" pin="2"/>
+    <net code="39" name="Net-(IC4A-7D)">
+      <node ref="IC4" pin="8" pinfunction="7D" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="D1" pintype="tri_state"/>
     </net>
-    <net code="40" name="Net-(IC3-Pad6)">
-      <node ref="P3" pin="3"/>
-      <node ref="IC3" pin="6"/>
+    <net code="40" name="Net-(IC4A-7Q)">
+      <node ref="IC4" pin="13" pinfunction="7Q" pintype="tri_state"/>
+      <node ref="X1" pin="14" pinfunction="P$14" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(IC3-Pad4)">
-      <node ref="P3" pin="1"/>
-      <node ref="IC3" pin="4"/>
+    <net code="41" name="Net-(IC4A-8D)">
+      <node ref="IC4" pin="9" pinfunction="8D" pintype="input"/>
+      <node ref="U1" pin="13" pinfunction="D0" pintype="tri_state"/>
     </net>
-    <net code="42" name="Net-(IC3-Pad5)">
-      <node ref="P2" pin="1"/>
-      <node ref="IC3" pin="5"/>
+    <net code="42" name="Net-(IC4A-8Q)">
+      <node ref="IC4" pin="12" pinfunction="8Q" pintype="tri_state"/>
+      <node ref="X1" pin="13" pinfunction="P$13" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(IC3-Pad7)">
-      <node ref="P2" pin="3"/>
-      <node ref="IC3" pin="7"/>
+    <net code="43" name="Net-(P2-Pin_2)">
+      <node ref="P2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="A17" pintype="input"/>
     </net>
-    <net code="44" name="Net-(P1-Pad2)">
-      <node ref="P1" pin="2"/>
+    <net code="44" name="Net-(P3-Pin_2)">
+      <node ref="P3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A18" pintype="input"/>
     </net>
-    <net code="45" name="Net-(IC3-Pad3)">
-      <node ref="IC3" pin="3"/>
+    <net code="45" name="Net-(X1-P$1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="P$1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(IC2-Pad2)">
-      <node ref="IC2" pin="2"/>
+    <net code="46" name="Net-(X1-P$2)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="P$2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(IC1-Pad15)">
-      <node ref="IC4" pin="11"/>
-      <node ref="IC1" pin="15"/>
+    <net code="47" name="Net-(X1-P$3)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="P$3" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(QG1-Pad1)">
-      <node ref="QG1" pin="1"/>
+    <net code="48" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="10" pinfunction="CCLR" pintype="input"/>
+      <node ref="IC1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC2" pin="10" pinfunction="CCLR" pintype="input"/>
+      <node ref="IC2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC3" pin="10" pinfunction="CCLR" pintype="input"/>
+      <node ref="IC3" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC4" pin="20" pinfunction="VCC" pintype="power_in"/>
+      <node ref="P1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="QG1" pin="14" pinfunction="Vcc" pintype="power_in"/>
+      <node ref="U1" pin="31" pinfunction="WE" pintype="input"/>
+      <node ref="U1" pin="32" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="49" name="Net-(IC3-Pad2)">
-      <node ref="IC3" pin="2"/>
-      <node ref="U1" pin="2"/>
+    <net code="49" name="unconnected-(IC2A-QC-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="QC" pintype="tri_state+no_connect"/>
     </net>
-    <net code="50" name="Net-(IC3-Pad1)">
-      <node ref="U1" pin="3"/>
-      <node ref="IC3" pin="1"/>
+    <net code="50" name="unconnected-(IC3A-QD-Pad3)">
+      <node ref="IC3" pin="3" pinfunction="QD" pintype="tri_state+no_connect"/>
     </net>
-    <net code="51" name="Net-(IC1-Pad9)">
-      <node ref="IC1" pin="9"/>
-      <node ref="IC2" pin="12"/>
+    <net code="51" name="unconnected-(IC3A-RCO-Pad9)">
+      <node ref="IC3" pin="9" pinfunction="RCO" pintype="output+no_connect"/>
     </net>
-    <net code="52" name="Net-(IC3-Pad9)">
-      <node ref="IC3" pin="9"/>
+    <net code="52" name="unconnected-(P1-Pin_2-Pad2)">
+      <node ref="P1" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="53" name="Net-(IC4-Pad15)">
-      <node ref="R3" pin="2"/>
-      <node ref="IC4" pin="15"/>
+    <net code="53" name="unconnected-(QG1-EN-Pad1)">
+      <node ref="QG1" pin="1" pinfunction="EN" pintype="input+no_connect"/>
     </net>
-    <net code="54" name="Net-(IC4-Pad19)">
-      <node ref="IC4" pin="19"/>
-      <node ref="R1" pin="2"/>
+    <net code="54" name="unconnected-(X1-P$4-Pad4)">
+      <node ref="X1" pin="4" pinfunction="P$4" pintype="passive+no_connect"/>
     </net>
-    <net code="55" name="Net-(R3-Pad1)">
-      <node ref="X1" pin="3"/>
-      <node ref="R3" pin="1"/>
-      <node ref="R6" pin="1"/>
+    <net code="55" name="unconnected-(X1-P$9-Pad9)">
+      <node ref="X1" pin="9" pinfunction="P$9" pintype="passive+no_connect"/>
     </net>
-    <net code="56" name="Net-(R2-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="X1" pin="2"/>
+    <net code="56" name="unconnected-(X1-P$11-Pad11)">
+      <node ref="X1" pin="11" pinfunction="P$11" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="Net-(IC4-Pad18)">
-      <node ref="R4" pin="2"/>
-      <node ref="IC4" pin="18"/>
+    <net code="57" name="unconnected-(X1-P$12-Pad12)">
+      <node ref="X1" pin="12" pinfunction="P$12" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="Net-(IC2-Pad9)">
-      <node ref="IC2" pin="9"/>
-      <node ref="IC3" pin="11"/>
+    <net code="58" name="unconnected-(X1-P$15-Pad15)">
+      <node ref="X1" pin="15" pinfunction="P$15" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="Net-(R1-Pad1)">
-      <node ref="X1" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R4" pin="1"/>
+    <net code="59" name="unconnected-(X1-PadSH1)">
+      <node ref="X1" pin="SH1" pinfunction="SH1" pintype="power_in+no_connect"/>
     </net>
-    <net code="60" name="Net-(IC1-Pad11)">
-      <node ref="IC2" pin="13"/>
-      <node ref="IC2" pin="11"/>
-      <node ref="IC1" pin="13"/>
-      <node ref="IC1" pin="11"/>
-      <node ref="QG1" pin="8"/>
-      <node ref="IC3" pin="13"/>
+    <net code="60" name="unconnected-(X1-PadSH2)">
+      <node ref="X1" pin="SH2" pinfunction="SH2" pintype="power_in+no_connect"/>
     </net>
   </nets>
 </export>
