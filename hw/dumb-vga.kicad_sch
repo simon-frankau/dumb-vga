@@ -6,7 +6,7 @@
 
   (title_block
     (title "Dumb VGA")
-    (rev "v0.7")
+    (rev "v0.8")
     (comment 1 "Simple circuit to generate VGA-like signal")
   )
 
