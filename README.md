@@ -1,5 +1,8 @@
 # A simple flash-based VGA display
 
+![A picture of a cat's head, surrounded by a kind of sunburst pattern,
+being displayed on a montior](./demo.jpg)
+
 The idea of this project is to generate a basic VGA-like signal that a
 monitor will display by putting the signal in a flash memory, and then
 using counters to run through the address space. Simple, eh?
@@ -54,8 +57,11 @@ transients, but it's what I had to hand, and seems to work fine.)
 
 ## PCB
 
+![A 3D render of the PCB](./hw/images/3d.png)
+
 I sent the files in hw/gerbers to http://smart-prototyping.com/, and
-they quickly sent me back PCBs which did the job.
+they quickly sent me back PCBs which did the job. There are PDFs of
+the Gerbers in hw/images.
 
 ### Assembly notes
 
