@@ -64,3 +64,7 @@ Added jumpers to allow control of the animation rate.
 # v0.7
 
 Swapped data lines around to simplify PCB routing.
+
+# v0.8
+
+Update to newer version of Kicad.
